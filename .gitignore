@@ -1,6 +1,10 @@
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
-*.pyc
+ # Environments 
+ .env 
+ env/ 
+ # Django stuff: 
+ __pycache__/ 
+ *.log 
+ *.pot 
+ *.pyc 
+ local_settings.py 
