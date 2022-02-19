@@ -143,7 +143,9 @@ REST_FRAMEWORK={
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
-
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 #LOGIN/LOGOUT URL
 LOGIN_REDIRECT_URL = '/home'
 LOGOUT_REDIRECT_URL = '/accounts/login'
