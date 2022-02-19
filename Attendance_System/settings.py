@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8+%^jq#ilmh)r=-c6b1^br5j1scqu%keo31$jv=$wrv7@+82mu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG_VALUE = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [‘smart-flight-search.herokuapp.com’, ‘0.0.0.0’]
 
 
 # Application definition
